@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: plum;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  button {background-color: #6ecceb; text-align: center;
+  } 
+
+
+  .delete-btn {
+    color: red;
+    cursor: pointer;
+  }
