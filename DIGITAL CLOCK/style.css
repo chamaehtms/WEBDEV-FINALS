@@ -1,0 +1,32 @@
+body {
+    align-items: center;
+    background-color: #a2f0e7;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    justify-content: center;
+    margin: 10;
+}
+
+#clock {
+    animation: glow 3s infinite alternate;
+    color: #ffffff;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(106, 211, 160, 0.5);
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    to {
+        text-shadow:
+            0 0 20px #85d4a1,
+            0 0 30px #48ff00,
+            0 0 40px #5b165b,
+            0 0 70px #650f65,
+            0 0 80px #22816b,
+            0 0 100px #ff00ff,
+            0 0 150px #ff00ff;
+    }
+}
